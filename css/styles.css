@@ -1,3 +1,8 @@
 body {
     background-color:darkgrey;
 }
+#aside-right{
+    position: absolute;
+    right: 0;
+    background-color: palevioletred
+}
