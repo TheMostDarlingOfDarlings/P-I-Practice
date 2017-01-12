@@ -1,8 +1,38 @@
 body {
     background-color:darkgrey;
 }
-#aside-right{
-    position: absolute;
-    right: 0;
-    background-color: palevioletred
+#head1 {
+    width: 100%;
+    background-color: beige;
+}
+#navigation {
+    width:100%;
+    background-color:aqua;
+}
+.menu {
+    background: #d7e6f;
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
+    margin:0;
+}
+#mywrapper {
+    display:flex;
+}
+#aside{
+    background-color: rebeccapurple;
+    width: 20%;
+    color: white;
+    padding-left: 5px;
+}
+#maincontent {
+    background-color: white;
+    width: 80%;
+}
+footer{
+    background-color: chocolate;
+    margin:0;
+}
+footer > h1 {
+    margin:0;
 }
